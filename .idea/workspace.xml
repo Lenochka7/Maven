@@ -12,8 +12,8 @@
       <change afterPath="$PROJECT_DIR$/../Java4.1.2/Java4.1.2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java4.1/Java4.1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java4.1/src/BonusMilesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +30,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2JEAxUC3uHP3zs1Jjkb1vRhfgbt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +65,12 @@
       <recent name="C:\Users\Елена\IdeaProjects\Maven\" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BonusServiceTest.shouldCalculateForUnregisteredUnderLimit">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit">
     <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTest.shouldCalculateForUnregistered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForUnregistered" />
+      <option name="METHOD_NAME" value="shouldCalculateForRegisteredAndUnderLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnregisteredUnderLimit" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnregisteredOverLimit" />
-        <item itemvalue="JUnit.BonusServiceTest" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnregistered" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit" />
         <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" />
+        <item itemvalue="JUnit.BonusServiceTest" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnregisteredOverLimit" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnregisteredUnderLimit" />
       </list>
     </recent_temporary>
   </component>
